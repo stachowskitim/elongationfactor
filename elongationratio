@@ -2,7 +2,7 @@
 
 out = ToString[$ScriptCommandLine[[2]]];
 
-ef[out_] := 
+er[out_] := 
  Module[
   {data, l, max, ef, pr, firsthalf, secondhalf, interpolate},
   data = Import[out, "Table"];
@@ -19,4 +19,4 @@ ef[out_] :=
   Print@ef
   ]
 
-ef[out]
+er[out]
